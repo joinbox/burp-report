@@ -1,0 +1,33 @@
+{
+      "name"                        : "burp-report"
+    , "description"                 : "burp pdf reports delivered by email"
+    , "version"                     : "0.1.0"
+    , "homepage"                    : "https://github.com/eventEmitter/burp-report"
+    , "author"                      : "Michael van der Weg <michael@joinbox.com> (http://joinbox.com/)"
+    , "license"                     : "MIT"
+    , "repository": {
+          "url"                     : "https://github.com/eventEmitter/burp-report.git"
+        , "type"                    : "git"
+    }
+    , "engines": {
+        "node"                      : ">=v4.1"
+    }
+    , "bugs": {
+        "url"                       : "https://github.com/eventEmitter/burp-report/issues"
+    }
+    , "dependencies": {
+          "ee-class"                : "1.x"
+        , "ee-types"                : "2.x"
+        , "ee-log"                  : "0.3.x"
+        , "pem"                     : "1.x"
+        , "prompt"                  : "1.x"
+    }
+    , "devDependencies": {
+          "mocha"                   : "2.x"
+    }
+    , "optionalDependencies": {}
+    , "keywords"                    : []
+    , "scripts": {
+        "test"                      : "./node_modules/mocha/bin/mocha --reporter spec"
+    }
+}
