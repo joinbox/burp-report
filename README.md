@@ -37,7 +37,7 @@ created. The key including some additional configuration data is printed to stdo
 on the filesystem.
 
 
-    burp-report client --add myClientName
+    burp-report server --add-client myClientName
 
 
 

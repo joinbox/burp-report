@@ -20,7 +20,7 @@
         , "ee-types"                : "2.x"
         , "ee-log"                  : "0.3.x"
         , "pem"                     : "1.x"
-        , "prompt"                  : "1.x"
+        , "inquirer"                : "0.12.x"
     }
     , "devDependencies": {
           "mocha"                   : "2.x"
