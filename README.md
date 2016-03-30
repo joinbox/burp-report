@@ -145,19 +145,28 @@ burp.json                           config for acceesing the local burp server
 #### server.json
 
     {
-          "version"     : "1.0"
-        , "port"        : 4387
-        , "bind"        : "0.0.0.0"
-        , "host"        : "backup.joinbox.com"
+          "version"     	: "1.0"
+        , "port"        	: 4387
+        , "bind"        	: "0.0.0.0"
+        , "host"        	: "backup.joinbox.com"
         , "ca": {
-              "key"     : "ca.pem"
-            , "cert"    : "ca.crt"
+              "key"     	: "ca.pem"
+            , "cert"    	: "ca.crt"
         }
         , "server": {
-              "key"     : "server.pem"
-            , "cert"    : "server.crt"
+              "key"     	: "server.pem"
+            , "cert"    	: "server.crt"
         }
-        , "blacklist"   : ["client-that-does-not-pay-the-bills"]
+        , "reports": {
+        	  "resolution" 	: 1
+        	, "timeSpan" 	: 24
+        }
+        , "mail": {
+        	  "transport" 	: "sendmail"
+        	, "from" 		: "backup@burp.server"
+        	, "times" 		: ["08:00"]
+        }
+        , "blacklist"   	: ["client-that-does-not-pay-the-bills"]
     }
 
 
