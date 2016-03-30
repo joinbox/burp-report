@@ -21,6 +21,9 @@
         , "ee-log"                  : "0.3.x"
         , "pem"                     : "1.x"
         , "inquirer"                : "0.12.x"
+        , "semver"                  : "5.x"
+        , "express"                 : "4.x"
+        , "request"                 : "2.x"
     }
     , "devDependencies": {
           "mocha"                   : "2.x"
